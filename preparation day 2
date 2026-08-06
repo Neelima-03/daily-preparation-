@@ -1,0 +1,51 @@
+# Day 02: Dual Track Learning Log (Software Engineering & SOC Analyst)
+
+## 📅 Date: Day 02
+
+---
+
+## 1. 💻 Software Engineering (Python)
+
+### Concepts Learned
+- **Dynamic vs. Static Arrays:** Understood contiguous memory allocation and dynamic resizing mechanisms in Python lists.
+- **String Immutability:** Explored how string modifications create new objects in memory ($O(N)$ operations).
+- **Big-O Time & Space Analysis:** Evaluated time and space complexities for array traversals and string manipulations.
+
+### LeetCode Solutions Completed
+- **1920. Build Array from Permutation**
+  - *Complexity:* $O(N)$ Time | $O(N)$ Space
+  - *Key Takeaway:* Array mapping and index targeting.
+- **2011. Final Value of Variable After Performing Operations**
+  - *Complexity:* $O(N)$ Time | $O(1)$ Space
+  - *Key Takeaway:* Efficient string pattern parsing.
+- **1108. Defanging an IP Address**
+  - *Complexity:* $O(N)$ Time | $O(N)$ Space
+  - *Key Takeaway:* String replacement methods.
+
+---
+
+## 2. 🛡️ SOC Analyst (Networking & SIEM)
+
+### Networking Fundamentals
+- **IPv4 Architecture:** 32-bit addresses divided into 4 octets.
+- **CIDR & Subnetting:** Learned CIDR notations (`/24`, `/16`, `/8`) and calculating network ID, broadcast addresses, and total usable hosts ($2^{(32 - CIDR)} - 2$).
+- **RFC 1918 Private IP Ranges:**
+  - Class A: `10.0.0.0` – `10.255.255.255`
+  - Class B: `172.16.0.0` – `172.31.255.255`
+  - Class C: `192.168.0.0` – `192.168.255.255`
+
+### SIEM Fundamentals (Security Information and Event Management)
+- **What is SIEM?** A centralized system that collects, normalizes, and analyzes log data across an enterprise network to detect real-time threats.
+- **Key SIEM Pipeline:** Log Ingestion $\rightarrow$ Parsing/Normalization $\rightarrow$ Rule Correlation $\rightarrow$ Alert Triage.
+- **Common Log Sources:** Windows Event Logs, Syslog (Linux), Firewall logs, DNS queries, and network flow data.
+
+---
+
+## 3. 🚀 Daily Reflection & Commands Used
+
+- **What went well:** Completed initial hands-on SIEM module on TryHackMe and practiced array operations in Python.
+- **Commands to Push Today's Work:**
+  ```bash
+  git add .
+  git commit -m "Add Day 02 LeetCode solutions, Subnetting, and SIEM notes"
+  git push origin main
