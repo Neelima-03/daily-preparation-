@@ -1,0 +1,59 @@
+# Day 03: Dual Track Learning Log (Python Core & Networking Fundamentals)
+
+## 📅 Date: Day 03
+
+---
+
+## 1. 💻 Software Engineering (Python Core)
+
+### Concepts Learned
+- **Dictionaries & Sets:** Understood how hash tables work in Python, enabling $O(1)$ average time complexity for key lookups and set operations.
+- **Key Operations:** Practiced methods like `.get()`, `.items()`, `.keys()`, `.values()`, and set uniqueness checks.
+- **String & List Operations:** Utilized string slicing (`[::-1]`), `.split()`, `.join()`, and two-pointer traversal techniques.
+
+### LeetCode Solutions Completed
+- **217. Contains Duplicate**
+  - *Complexity:* $O(N)$ Time | $O(N)$ Space
+  - *Key Takeaway:* Using Python sets for quick $O(1)$ existence checks.
+- **242. Valid Anagram**
+  - *Complexity:* $O(N)$ Time | $O(1)$ Space
+  - *Key Takeaway:* Frequency counting using hash maps / fixed character array.
+- **1. Two Sum**
+  - *Complexity:* $O(N)$ Time | $O(N)$ Space
+  - *Key Takeaway:* Hash map storing `{element: index}` to find complements in a single pass.
+- **125. Valid Palindrome**
+  - *Complexity:* $O(N)$ Time | $O(1)$ Space
+  - *Key Takeaway:* Two-pointer technique filtering non-alphanumeric characters.
+
+---
+
+## 2. 🛡️ SOC Analyst (Networking Fundamentals)
+
+### Core Networking Concepts
+- **TCP vs. UDP:**
+  - **TCP:** Connection-oriented, reliable, and uses the 3-way handshake (`SYN` $\rightarrow$ `SYN-ACK` $\rightarrow$ `ACK`).
+  - **UDP:** Connectionless, fast, and lightweight (used for streaming and DNS queries).
+- **Critical Ports to Remember:**
+  - Port 20/21: FTP
+  - Port 22: SSH
+  - Port 53: DNS
+  - Port 67/68: DHCP
+  - Port 80: HTTP
+  - Port 443: HTTPS
+- **OSI Model Layers:** Physical, Data Link, Network, Transport, Session, Presentation, Application.
+
+### Hands-On Lab Work Completed
+- **TryHackMe Room:** *Introductory Networking*
+- **Key Tasks Finished:**
+  - Explored OSI and TCP/IP networking models.
+  - Studied packet encapsulation and transport protocols.
+  - Practiced network diagnostics using CLI tools: `ping`, `traceroute`, `nslookup`, and `netstat`.
+
+---
+
+## 3. 🚀 Daily Terminal Commands Executed
+
+```bash
+git add .
+git commit -m "Complete Day 03: Python Hash Maps, String Manipulation & THM Introductory Networking"
+git push origin main
