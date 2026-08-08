@@ -1,0 +1,36 @@
+# Day 04: Dual Track Learning Log (Python OOP & Networking Fundamentals)
+
+## 📅 Date: Day 04
+
+---
+
+## 1. 💻 Software Engineering (Python Core & OOP)
+
+### Concepts Learned
+- **Object-Oriented Programming (OOP) Basics:** Introduction to classes, objects, constructors (`__init__`), and the `self` parameter in Python.
+- **Core OOP Pillars:**
+  - **Encapsulation:** Bundling data (attributes) and methods within a class while restricting direct access.
+  - **Inheritance:** Creating child classes that inherit properties and behaviors from a parent class.
+- **Problem Solving (Strings & Basic Classes):** Practice using string manipulation methods (`.isalnum()`, `.lower()`) and two-pointer traversal techniques to check palindromes.
+
+### LeetCode Solutions Completed
+- **125. Valid Palindrome**
+  - *Complexity:* $O(N)$ Time | $O(1)$ Space
+  - *Key Takeaway:* Two-pointer technique moving inward from both ends, filtering out non-alphanumeric characters.
+- **217. Contains Duplicate**
+  - *Complexity:* $O(N)$ Time | $O(N)$ Space
+  - *Key Takeaway:* Hash Set tracking to detect repeated elements in $O(1)$ lookup time.
+
+---
+
+## 2. 🛡️ SOC Analyst (Networking Fundamentals)
+
+### Core Concepts Covered
+- **The OSI Model (7 Layers):** Explored how data moves from the Physical layer up to the Application layer.
+- **The TCP/IP Model (4 Layers):** Learned real-world internet architecture (Network Access, Internet, Transport, Application).
+- **Packet Encapsulation:** Understood how data gets wrapped with headers as it travels down network layers.
+- **SMB & Port Fundamentals:** Introduction to Server Message Block (SMB) and client-server communication over TCP/IP.
+
+### Hands-On Lab Work Completed
+- **TryHackMe Room:** *Introductory Networking* (Tasks 1–4: OSI & TCP/IP Models)
+- **TryHackMe Room:** *Network Services* (Tasks 1–2: SMB Concepts)
