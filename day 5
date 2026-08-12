@@ -1,0 +1,51 @@
+# Day 05: Dual Track Learning Log (Python OOP, File Handling & Linux Core)
+
+## 📅 Date: Day 05
+
+---
+
+## 1. 💻 Software Engineering (Python Core & OOP)
+
+### Concepts Learned
+- **Object-Oriented Programming (OOP) Applied:**
+  - Built a `BankAccount` class implementing encapsulation to protect account balances.
+  - Practiced using instance variables (`self.balance`) and methods (`deposit`, `withdraw`).
+- **File & Exception Handling:**
+  - Used context managers (`with open()`) for safe file reading/writing.
+  - Implemented `try-except` blocks to handle runtime errors gracefully.
+
+### Coding Solutions Completed
+- **Mini-Project:** `bank_account.py` (OOP banking class with exception handling)
+- **58. Length of Last Word**
+  - *Complexity:* $O(N)$ Time | $O(1)$ Space
+  - *Key Takeaway:* Trimming trailing whitespace and parsing the final string token.
+- **14. Longest Common Prefix**
+  - *Complexity:* $O(N \cdot M)$ Time | $O(1)$ Space
+  - *Key Takeaway:* Index-by-index character comparison across an array of strings.
+
+---
+
+## 2. 🛡️ SOC Analyst (Linux Fundamentals & Log Analysis)
+
+### Core Concepts Covered
+- **Linux Directory Architecture:**
+  - `/etc`: System configuration files.
+  - `/var/log`: System event logs (essential for threat investigation).
+- **File Permissions & Ownership:**
+  - Read (`r`), Write (`w`), Execute (`x`) numerical permissions (`chmod 755`).
+- **Log Inspection Commands:**
+  - `head` / `tail`: Inspect top or bottom lines of log files.
+  - `grep`: Search for specific keywords or IP addresses in terminal outputs.
+
+### Hands-On Lab Work Completed
+- **TryHackMe Room:** *Linux Fundamentals Part 1* (Tasks 1–5)
+- Executed basic file navigation and viewing commands (`pwd`, `ls -la`, `cd`, `cat`, `whoami`) in the interactive browser terminal.
+
+---
+
+## 3. 🚀 Daily Terminal Commands
+
+```bash
+git add .
+git commit -m "Add Day 05 Python OOP, File Handling, and Linux Fundamentals"
+git push origin main
